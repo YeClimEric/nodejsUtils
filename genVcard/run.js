@@ -21,5 +21,5 @@ data.split( "\n" ).forEach( ( line ) => {
     }
     name = quotePrintable.encode( utf8.encode( d[ 1 ] ) );
     mobile = d[ 0 ]
-    appendFile( "./cus_card_vcf", cardModule.replace( "name", name ).replace( "fname", name ).replace( 'mobile', mobile ) );
+    appendFile( "./cus_card.vcf", cardModule.replace( "name", name ).replace( "fname", name ).replace( 'mobile', mobile ) );
 } )
