@@ -1,0 +1,17 @@
+{
+  "name": "genvcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "quoted-printable": "^1.0.1",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
