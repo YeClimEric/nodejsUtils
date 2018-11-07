@@ -5,6 +5,7 @@
   "main": "run.js",
   "dependencies": {
     "fs-extra": "^7.0.0",
+    "minimist": "^1.2.0",
     "quoted-printable": "^1.0.1",
     "utf8": "^3.0.0"
   },
